@@ -7,7 +7,7 @@ class AirportSecurityCheck(object):
     personal scanners (``NUM_SCANNERS``) to check arrived passengers in parallel.
 
     Passengers have to request one of the checkers and scanners. When they got one, they can start the processes
-    and wait for it to finish (which takes ``check_time`` and ``scan_time`` minutes)."""
+    and wait for it to finish."""
 
     def __init__(self, env, num_checkers, num_scanners):
         self.env = env
